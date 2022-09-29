@@ -1,0 +1,93 @@
+.container-fluid {
+  width: 100%;
+  padding: 100px;
+  background-image: linear-gradient(to bottom right, #3595c7, #fdfffe);
+}
+.body {
+  background-color: #7eecc3;
+}
+.box-color {
+  background-color: #45a049;
+}
+.whole-container {
+  width: 1200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 10rem;
+  background-color: rgb(228, 239, 247);
+  border-radius: 5%;
+  border: 20px groove whitesmoke;
+}
+.box-title {
+  background-color: #f4c839;
+  width: 300px;
+  height: 40px;
+}
+.form-title {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  size: 1rem;
+  color: #000000;
+}
+.column {
+  float: left;
+  width: 100%;
+}
+
+.column-half {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.row-container {
+  display: grid;
+  grid-template-columns: 20% auto;
+  padding: 0em 0em;
+}
+/* Style inputs */
+input[type='text'],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type='submit'] {
+  width: 100%;
+  background-color: #0cac06;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type='submit']:hover {
+  background-color: #45a049;
+}
+
+.container-transfer {
+  width: 380px;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  background-color: #e7f7e8;
+  border-radius: 25%;
+
+  text-align: justify;
+}
